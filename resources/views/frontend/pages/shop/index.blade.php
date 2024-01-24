@@ -68,7 +68,6 @@
             <div class="row row--15">
                 @for ($i = 1; $i < 5; $i++)
                     @include('frontend.pages.shop.components.product-item', ['product' =>$i])
-
                 @endfor
                 {{-- <div class="col-xl-3 col-lg-4 col-sm-6">
                     <div class="axil-product product-style-one has-color-pick mt--40">

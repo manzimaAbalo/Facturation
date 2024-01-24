@@ -2,8 +2,8 @@
 <div class="axil-testimoial-area axil-section-gap bg-vista-white">
     <div class="container">
         <div class="section-title-wrapper">
-            <span class="title-highlighter highlighter-secondary"> <i class="fal fa-quote-left"></i>Testimonials</span>
-            <h2 class="title">Users Feedback</h2>
+            <span class="title-highlighter highlighter-secondary"> <i class="fal fa-quote-left"></i>Témoignanges</span>
+            <h2 class="title">Ils nous font confiance</h2>
         </div>
         <!-- End .section-title -->
         <div class="testimonial-slick-activation testimonial-style-one-wrapper slick-layout-wrapper--20 axil-slick-arrow arrow-top-slide">

@@ -87,7 +87,7 @@
                             </a>
                         </li>
                         <li class="wishlist">
-                            <a href="wishlist.html">
+                            <a href="{{ route('market.favoris') }}">
                                 <i class="flaticon-heart"></i>
                             </a>
                         </li>
@@ -105,20 +105,14 @@
                                 <span class="title">QUICKLINKS</span>
                                 <ul>
                                     <li>
-                                        <a href="my-account.html">Mon compte</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Initiate return</a>
+                                        <a href="{{ route('user-profile') }}">Mon compte</a>
                                     </li>
                                     <li>
                                         <a href="#">Support</a>
                                     </li>
-                                    <li>
-                                        <a href="#">Language</a>
-                                    </li>
                                 </ul>
                                 <div class="login-btn">
-                                    <a href="sign-in.html" class="axil-btn btn-bg-primary">Login</a>
+                                    <a href="#" class="axil-btn btn-bg-primary">Se connecter</a>
                                 </div>
                                 <div class="reg-footer text-center">No account yet? <a href="sign-up.html" class="btn-link">REGISTER HERE.</a></div>
                             </div>

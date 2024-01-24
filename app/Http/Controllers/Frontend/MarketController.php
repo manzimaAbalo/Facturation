@@ -15,4 +15,16 @@ class MarketController extends Controller
         return view('frontend.pages.shop.detail-product');
     }
 
+    public function cartPage(){
+        return view('frontend.pages.shop.cartPage');
+    }
+
+    public function checkoutPage(){
+        return view('frontend.pages.shop.checkoutPage');
+    }
+
+    public function favorisPage(){
+        return view('frontend.pages.shop.favorisPage');
+    }
+
 }

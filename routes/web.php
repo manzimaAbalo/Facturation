@@ -22,5 +22,9 @@ Route::group(['namespace' => 'Frontend'], function () {
     Route::prefix('market')->group(function () {
         Route::get('/', 'MarketController@index')->name('market');
         Route::get('/detail/{slug}', 'MarketController@detail_product')->name('market.detail');
+        Route::get('/panier', 'MarketController@cartPage')->name('market.cart');
+        Route::get('/commandes', 'MarketController@checkoutPage')->name('market.checkout');
+        Route::get('/favoris', 'MarketController@favorisPage')->name('market.favoris');
     });
+    Route::get('/profile','FrontendController@profilePage')->name('user-profile');
 });

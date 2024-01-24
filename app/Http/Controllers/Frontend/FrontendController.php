@@ -18,4 +18,8 @@ class FrontendController extends Controller
     public function contactPage(){
         return view('frontend.pages.contact.contactPage');
     }
+
+    public function profilePage(){
+        return view('frontend.pages.profile.index');
+    }
 }
