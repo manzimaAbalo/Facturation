@@ -3,7 +3,7 @@
     <div class="header-top-campaign">
         <div class="container position-relative">
             <div class="campaign-content">
-                <p>Bienvenue sur abalo Store.<a href="#">Nous vous souhaitons une agrégable journée</a></p>
+                <p>Bienvenue sur eTrade. <a href="#">Nous vous souhaitons une aexcellente navigation</a></p>
             </div>
         </div>
         <button class="remove-campaign"><i class="fal fa-times"></i></button>
@@ -20,7 +20,6 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Français</a></li>
                                 <li><a class="dropdown-item" href="#">English</a></li>
-                                <li><a class="dropdown-item" href="#">EWE</a></li>
                             </ul>
                         </div>
                         <div class="dropdown">
@@ -28,7 +27,7 @@
                                 XOF
                             </button>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">XOF</a></li>
+                                <li><a class="dropdown-item" href="#">fcfa</a></li>
                                 <li><a class="dropdown-item" href="#">USD</a></li>
                                 <li><a class="dropdown-item" href="#">EUR</a></li>
                             </ul>
@@ -102,7 +101,7 @@
                                 <i class="flaticon-person"></i>
                             </a>
                             <div class="my-account-dropdown">
-                                <span class="title">QUICKLINKS</span>
+                                <span class="title">Liens utiles</span>
                                 <ul>
                                     <li>
                                         <a href="{{ route('user-profile') }}">Mon compte</a>
@@ -114,7 +113,7 @@
                                 <div class="login-btn">
                                     <a href="#" class="axil-btn btn-bg-primary">Se connecter</a>
                                 </div>
-                                <div class="reg-footer text-center">No account yet? <a href="sign-up.html" class="btn-link">REGISTER HERE.</a></div>
+                                <div class="reg-footer text-center">Pas encore de compte ? <a href="sign-up.html" class="btn-link">S'inscrire ici.</a></div>
                             </div>
                         </li>
                         <li class="axil-mobile-toggle">

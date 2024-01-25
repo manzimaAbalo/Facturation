@@ -57,11 +57,11 @@
                 <button class="popup-close"><i class="fas fa-times"></i></button>
                 <div class="content">
                     <div class="section-title-wrapper">
-                        <span class="title-highlighter highlighter-primary"> <i class="far fa-shopping-basket"></i> Don’t Miss!!</span>
+                        <span class="title-highlighter highlighter-primary"> <i class="far fa-shopping-basket"></i> Ne manquez pas !!</span>
                         <h3 class="title">Best Sales Offer<br> Grab Yours</h3>
                     </div>
                     <div class="poster-countdown countdown"></div>
-                    <a href="shop.html" class="axil-btn btn-bg-primary">Shop Now <i class="fal fa-long-arrow-right"></i></a>
+                    <a href="shop.html" class="axil-btn btn-bg-primary">Achetez maintenant <i class="fal fa-long-arrow-right"></i></a>
                 </div>
             </div>
         </div>

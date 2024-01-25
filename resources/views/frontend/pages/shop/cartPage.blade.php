@@ -15,57 +15,57 @@
             <div class="container">
                 <div class="axil-product-cart-wrap">
                     <div class="product-table-heading">
-                        <h4 class="title">Your Cart</h4>
-                        <a href="#" class="cart-clear">Clear Shoping Cart</a>
+                        <h4 class="title">Votre panier</h4>
+                        <a href="#" class="cart-clear">Vider le panier</a>
                     </div>
                     <div class="table-responsive">
                         <table class="table axil-product-table axil-cart-table mb--40">
                             <thead>
                                 <tr>
                                     <th scope="col" class="product-remove"></th>
-                                    <th scope="col" class="product-thumbnail">Product</th>
+                                    <th scope="col" class="product-thumbnail">Produits</th>
                                     <th scope="col" class="product-title"></th>
-                                    <th scope="col" class="product-price">Price</th>
-                                    <th scope="col" class="product-quantity">Quantity</th>
-                                    <th scope="col" class="product-subtotal">Subtotal</th>
+                                    <th scope="col" class="product-price">Prix</th>
+                                    <th scope="col" class="product-quantity">Quantité</th>
+                                    <th scope="col" class="product-subtotal">Sous-total</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td class="product-remove"><a href="#" class="remove-wishlist"><i class="fal fa-times"></i></a></td>
                                     <td class="product-thumbnail"><a href="single-product.html"><img src="assets/images/product/electric/product-01.png" alt="Digital Product"></a></td>
-                                    <td class="product-title"><a href="single-product.html">Wireless PS Handler</a></td>
-                                    <td class="product-price" data-title="Price"><span class="currency-symbol">$</span>124.00</td>
+                                    <td class="product-title"><a href="single-product.html">Casques</a></td>
+                                    <td class="product-price" data-title="Price"><span class="currency-symbol">f</span>12.400</td>
                                     <td class="product-quantity" data-title="Qty">
                                         <div class="pro-qty">
                                             <input type="number" class="quantity-input" value="1">
                                         </div>
                                     </td>
-                                    <td class="product-subtotal" data-title="Subtotal"><span class="currency-symbol">$</span>275.00</td>
+                                    <td class="product-subtotal" data-title="Subtotal"><span class="currency-symbol">f</span>27.500</td>
                                 </tr>
                                 <tr>
                                     <td class="product-remove"><a href="#" class="remove-wishlist"><i class="fal fa-times"></i></a></td>
                                     <td class="product-thumbnail"><a href="single-product-2.html"><img src="assets/images/product/electric/product-02.png" alt="Digital Product"></a></td>
-                                    <td class="product-title"><a href="single-product-2.html">Gradient Light Keyboard</a></td>
-                                    <td class="product-price" data-title="Price"><span class="currency-symbol">$</span>124.00</td>
+                                    <td class="product-title"><a href="single-product-2.html">Clavier rétro-eclairée</a></td>
+                                    <td class="product-price" data-title="Price"><span class="currency-symbol">f</span>12.400</td>
                                     <td class="product-quantity" data-title="Qty">
                                         <div class="pro-qty">
                                             <input type="number" class="quantity-input" value="1">
                                         </div>
                                     </td>
-                                    <td class="product-subtotal" data-title="Subtotal"><span class="currency-symbol">$</span>275.00</td>
+                                    <td class="product-subtotal" data-title="Subtotal"><span class="currency-symbol">f</span>27.500</td>
                                 </tr>
                                 <tr>
                                     <td class="product-remove"><a href="#" class="remove-wishlist"><i class="fal fa-times"></i></a></td>
                                     <td class="product-thumbnail"><a href="single-product-3.html"><img src="assets/images/product/electric/product-03.png" alt="Digital Product"></a></td>
-                                    <td class="product-title"><a href="single-product-3.html">HD CC Camera</a></td>
-                                    <td class="product-price" data-title="Price"><span class="currency-symbol">$</span>124.00</td>
+                                    <td class="product-title"><a href="single-product-3.html">Camera HD </a></td>
+                                    <td class="product-price" data-title="Price"><span class="currency-symbol">f</span>12.400</td>
                                     <td class="product-quantity" data-title="Qty">
                                         <div class="pro-qty">
                                             <input type="number" class="quantity-input" value="1">
                                         </div>
                                     </td>
-                                    <td class="product-subtotal" data-title="Subtotal"><span class="currency-symbol">$</span>275.00</td>
+                                    <td class="product-subtotal" data-title="Subtotal"><span class="currency-symbol">f</span>27.500</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -74,48 +74,48 @@
                         <div class="input-group product-cupon">
                             <input placeholder="Enter coupon code" type="text">
                             <div class="product-cupon-btn">
-                                <button type="submit" class="axil-btn btn-outline">Apply</button>
+                                <button type="submit" class="axil-btn btn-outline">Appliquer</button>
                             </div>
                         </div>
                         <div class="update-btn">
-                            <a href="#" class="axil-btn btn-outline">Update Cart</a>
+                            <a href="#" class="axil-btn btn-outline">Mettre le panier a jour</a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xl-5 col-lg-7 offset-xl-7 offset-lg-5">
                             <div class="axil-order-summery mt--80">
-                                <h5 class="title mb--20">Order Summary</h5>
+                                <h5 class="title mb--20">Détails de commande</h5>
                                 <div class="summery-table-wrap">
                                     <table class="table summery-table mb--30">
                                         <tbody>
                                             <tr class="order-subtotal">
-                                                <td>Subtotal</td>
-                                                <td>$117.00</td>
+                                                <td>Sous-total</td>
+                                                <td>11.700 fcfa</td>
                                             </tr>
                                             <tr class="order-shipping">
-                                                <td>Shipping</td>
+                                                <td>Livraison</td>
                                                 <td>
                                                     <div class="input-group">
                                                         <input type="radio" id="radio1" name="shipping" checked>
-                                                        <label for="radio1">Free Shippping</label>
+                                                        <label for="radio1">Livraison gratuite</label>
                                                     </div>
                                                     <div class="input-group">
                                                         <input type="radio" id="radio2" name="shipping">
-                                                        <label for="radio2">Local: $35.00</label>
+                                                        <label for="radio2">Local: 3.500 fcfa</label>
                                                     </div>
                                                     <div class="input-group">
                                                         <input type="radio" id="radio3" name="shipping">
-                                                        <label for="radio3">Flat rate: $12.00</label>
+                                                        <label for="radio3">Forfaitaire: 1.200 fcfa</label>
                                                     </div>
                                                 </td>
                                             </tr>
                                             <tr class="order-tax">
-                                                <td>State Tax</td>
-                                                <td>$8.00</td>
+                                                <td>Impôt d'État</td>
+                                                <td>800 fcfa</td>
                                             </tr>
                                             <tr class="order-total">
                                                 <td>Total</td>
-                                                <td class="order-total-amount">$125.00</td>
+                                                <td class="order-total-amount">12.500 fcfa</td>
                                             </tr>
                                         </tbody>
                                     </table>

@@ -2,7 +2,7 @@
 <div class="cart-dropdown" id="cart-dropdown">
     <div class="cart-content-wrap">
         <div class="cart-header">
-            <h2 class="header-title">Cart review</h2>
+            <h2 class="header-title">Revoir le panier</h2>
             <button class="cart-close sidebar-close"><i class="fas fa-times"></i></button>
         </div>
         <div class="cart-body">
@@ -23,8 +23,8 @@
                         </span>
                             <span class="rating-number">(64)</span>
                         </div>
-                        <h3 class="item-title"><a href="single-product-3.html">Wireless PS Handler</a></h3>
-                        <div class="item-price"><span class="currency-symbol">$</span>155.00</div>
+                        <h3 class="item-title"><a href="single-product-3.html">Casques sans fils</a></h3>
+                        <div class="item-price"><span class="currency-symbol">f</span>15.500</div>
                         <div class="pro-qty item-quantity">
                             <input type="number" class="quantity-input" value="15">
                         </div>
@@ -47,7 +47,7 @@
                             <span class="rating-number">(4)</span>
                         </div>
                         <h3 class="item-title"><a href="single-product-2.html">Gradient Light Keyboard</a></h3>
-                        <div class="item-price"><span class="currency-symbol">$</span>255.00</div>
+                        <div class="item-price"><span class="currency-symbol">f</span>25.500</div>
                         <div class="pro-qty item-quantity">
                             <input type="number" class="quantity-input" value="5">
                         </div>
@@ -69,8 +69,8 @@
                         </span>
                             <span class="rating-number">(6)</span>
                         </div>
-                        <h3 class="item-title"><a href="single-product.html">HD CC Camera</a></h3>
-                        <div class="item-price"><span class="currency-symbol">$</span>200.00</div>
+                        <h3 class="item-title"><a href="single-product.html">Camera HD</a></h3>
+                        <div class="item-price"><span class="currency-symbol">f</span>20.000</div>
                         <div class="pro-qty item-quantity">
                             <input type="number" class="quantity-input" value="100">
                         </div>
@@ -80,8 +80,8 @@
         </div>
         <div class="cart-footer">
             <h3 class="cart-subtotal">
-                <span class="subtotal-title">Subtotal:</span>
-                <span class="subtotal-amount">$610.00</span>
+                <span class="subtotal-title">Sous-total:</span>
+                <span class="subtotal-amount">61.000 fcfa</span>
             </h3>
             <div class="group-btn">
                 <a href="{{ route('market.cart') }}" class="axil-btn btn-bg-primary viewcart-btn">Mon panier</a>

@@ -60,7 +60,7 @@
                 <div class="single-product-content">
                     <div class="inner">
                         <h2 class="product-title">3D™ wireless headset</h2>
-                        <span class="price-amount">$155.00 - $255.00</span>
+                        <span class="price-amount">15.500 fcfa - 25.500 fcfa</span>
                         <div class="product-rating">
                             <div class="star-rating">
                                 <i class="fas fa-star"></i>
@@ -70,13 +70,13 @@
                                 <i class="far fa-star"></i>
                             </div>
                             <div class="review-link">
-                                <a href="#">(<span>2</span> customer reviews)</a>
+                                <a href="#">(<span>2</span> "Commentaires des clients")</a>
                             </div>
                         </div>
                         <ul class="product-meta">
-                            <li><i class="fal fa-check"></i>In stock</li>
-                            <li><i class="fal fa-check"></i>Free delivery available</li>
-                            <li><i class="fal fa-check"></i>Sales 30% Off Use Code: MOTIVE30</li>
+                            <li><i class="fal fa-check"></i>En stock</li>
+                            <li><i class="fal fa-check"></i>Livraison gratuite disponible</li>
+                            <li><i class="fal fa-check"></i>"Promotion de 30% de réduction. Utilisez le code : MOTIVE30"</li>
                         </ul>
                         <p class="description">In ornare lorem ut est dapibus, ut tincidunt nisi pretium. Integer ante est, elementum eget magna. Pellentesque sagittis dictum libero, eu dignissim tellus.</p>
 
@@ -84,7 +84,7 @@
 
                             <!-- Start Product Variation  -->
                             <div class="product-variation">
-                                <h6 class="title">Colors:</h6>
+                                <h6 class="title">Couleurs:</h6>
                                 <div class="color-variant-wrapper">
                                     <ul class="color-variant">
                                         <li class="color-extra-01 active"><span><span class="color"></span></span>
@@ -100,13 +100,13 @@
 
                             <!-- Start Product Variation  -->
                             <div class="product-variation product-size-variation">
-                                <h6 class="title">Size:</h6>
+                                <h6 class="title">Taille:</h6>
                                 <ul class="range-variant">
-                                    <li>xs</li>
-                                    <li>s</li>
-                                    <li>m</li>
-                                    <li>l</li>
-                                    <li>xl</li>
+                                    <li>M</li>
+                                    <li>L</li>
+                                    <li>S</li>
+                                    <li>XL</li>
+                                    <li>2Xl</li>
                                 </ul>
                             </div>
                             <!-- End Product Variation  -->
@@ -121,7 +121,7 @@
 
                             <!-- Start Product Action  -->
                             <ul class="product-action d-flex-center mb--0">
-                                <li class="add-to-cart"><a href="cart.html" class="axil-btn btn-bg-primary">Add to Cart</a></li>
+                                <li class="add-to-cart"><a href="cart.html" class="axil-btn btn-bg-primary">Ajouter au panier</a></li>
                                 <li class="wishlist"><a href="wishlist.html" class="axil-btn wishlist-btn"><i class="far fa-heart"></i></a></li>
                             </ul>
                             <!-- End Product Action  -->

@@ -12,7 +12,7 @@
             <div class="product-hover-action">
                 <ul class="cart-action">
                     <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a></li>
-                    <li class="select-option"><a href="cart.html">Add to Cart</a></li>
+                    <li class="select-option"><a href="cart.html">Ajouter au panier</a></li>
                     <li class="quickview">
                         @include('frontend.components.productQuickView', ['product' => $product])
                         {{-- <a href="#" data-bs-toggle="modal" data-bs-target="#quick-view-modal"><i class="far fa-eye"></i></a> --}}
@@ -24,8 +24,8 @@
             <div class="inner">
                 <h5 class="title"><a href="{{ route('market.detail', ['slug'=>$product]) }}">3D™ wireless headset</a></h5>
                 <div class="product-price-variant">
-                    <span class="price current-price">$30</span>
-                    <span class="price old-price">$30</span>
+                    <span class="price current-price">3000 fcfa</span>
+                    <span class="price old-price">3000 fcfa</span>
                 </div>
                 <div class="color-variant-wrapper">
                     <ul class="color-variant">

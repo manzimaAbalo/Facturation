@@ -19,15 +19,14 @@
                         <div class="col-lg-6 mb--30">
                             <div class="single-desc">
                                 <h5 class="title">Specifications:</h5>
-                                <p>We’ve created a full-stack structure for our working workflow processes, were from the funny the century initial all the made, have spare to negatives. But the structure was from the funny the century rather,
-                                    initial all the made, have spare to negatives.</p>
+                                <p>Nous avons créé une structure complète pour nos processus de flux de travail, partant du drôle du siècle initial, tout ce qui a été fait, a des réserves aux aspects négatifs. Cependant, la structure était plutôt du drôle du siècle, initiale, tout ce qui a été fait, avec des réserves aux aspects négatifs..</p>
                             </div>
                         </div>
                         <!-- End .col-lg-6 -->
                         <div class="col-lg-6 mb--30">
                             <div class="single-desc">
-                                <h5 class="title">Care & Maintenance:</h5>
-                                <p>Use warm water to describe us as a product team that creates amazing UI/UX experiences, by crafting top-notch user experience.</p>
+                                <h5 class="title">Entretien & Maintenance:</h5>
+                                <p>Nous sommes comme de l'eau chaude pour décrire notre équipe produit qui crée des expériences UI/UX incroyables, en façonnant une expérience utilisateur de premier ordre.</p>
                             </div>
                         </div>
                         <!-- End .col-lg-6 -->
@@ -40,19 +39,20 @@
                                     <div class="icon">
                                         <img src="/assets/images/product/product-thumb/icon-3.png" alt="icon">
                                     </div>
-                                    Easy Returns
+                                    Retours faciles
                                 </li>
                                 <li class="single-features">
                                     <div class="icon">
                                         <img src="/assets/images/product/product-thumb/icon-2.png" alt="icon">
                                     </div>
-                                    Quality Service
+                                    Service de qualité
+
                                 </li>
                                 <li class="single-features">
                                     <div class="icon">
                                         <img src="/assets/images/product/product-thumb/icon-1.png" alt="icon">
                                     </div>
-                                    Original Product
+                                    Produit original
                                 </li>
                             </ul>
                             <!-- End .pro-des-features -->
@@ -69,46 +69,46 @@
                             <tbody>
                                 <tr>
                                     <th>Stand Up</th>
-                                    <td>35″L x 24″W x 37-45″H(front to back wheel)</td>
+                                    <td>35″L x 24″l x 37-45″H (de l'avant à la roue arrière)</td>
                                 </tr>
                                 <tr>
-                                    <th>Folded (w/o wheels) </th>
-                                    <td>32.5″L x 18.5″W x 16.5″H</td>
+                                    <th>Replié (sans roues) </th>
+                                    <td>32.5″L x 18.5″l x 16.5″H</td>
                                 </tr>
                                 <tr>
-                                    <th>Folded (w/ wheels) </th>
+                                    <th>Replié (avec roues) </th>
                                     <td>32.5″L x 24″W x 18.5″H</td>
                                 </tr>
                                 <tr>
-                                    <th>Door Pass Through </th>
+                                    <th>Passage de porte </th>
                                     <td>24</td>
                                 </tr>
                                 <tr>
-                                    <th>Frame </th>
-                                    <td>Aluminum</td>
+                                    <th>Cadre </th>
+                                    <td>Aluminium</td>
                                 </tr>
                                 <tr>
-                                    <th>Weight (w/o wheels) </th>
-                                    <td>20 LBS</td>
+                                    <th>Poids (sans roues) </th>
+                                    <td>20 Livres</td>
                                 </tr>
                                 <tr>
-                                    <th>Weight Capacity </th>
-                                    <td>60 LBS</td>
+                                    <th>Capacité de poids </th>
+                                    <td>60 Livres</td>
                                 </tr>
                                 <tr>
-                                    <th>Width</th>
+                                    <th>Largeur</th>
                                     <td>24″</td>
                                 </tr>
                                 <tr>
-                                    <th>Handle height (ground to handle) </th>
+                                    <th>Hauteur de la poignée (sol à la poignée) </th>
                                     <td>37-45″</td>
                                 </tr>
                                 <tr>
-                                    <th>Wheels</th>
-                                    <td>Aluminum</td>
+                                    <th>Roues</th>
+                                    <td>Aluminium</td>
                                 </tr>
                                 <tr>
-                                    <th>Size</th>
+                                    <th>Taille</th>
                                     <td>S, M, X, XL</td>
                                 </tr>
                             </tbody>
@@ -121,7 +121,7 @@
                     <div class="row">
                         <div class="col-lg-6 mb--40">
                             <div class="axil-comment-area pro-desc-commnet-area">
-                                <h5 class="title">01 Review for this product</h5>
+                                <h5 class="title">"01 Avis pour ce produit"</h5>
                                 <ul class="comment-list">
                                     <!-- Start Single Comment  -->
                                     <li class="comment">
@@ -146,7 +146,7 @@
                                                         </span>
                                                     </h6>
                                                     <div class="comment-text">
-                                                        <p>“We’ve created a full-stack structure for our working workflow processes, were from the funny the century initial all the made, have spare to negatives. ” </p>
+                                                        <p>"Nous avons créé une structure complète en cascade pour nos processus de flux de travail, en partant de l'initial amusant du siècle, tout a été fait, avec des réserves aux aspects négatifs." </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -177,7 +177,7 @@
                                                         </span>
                                                     </h6>
                                                     <div class="comment-text">
-                                                        <p>“We’ve created a full-stack structure for our working workflow processes, were from the funny the century initial all the made, have spare to negatives. ”</p>
+                                                        <p>"Nous avons créé une structure complète en cascade pour nos processus de flux de travail, en partant de l'initial amusant du siècle, tout a été fait, avec des réserves aux aspects négatifs."</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -208,7 +208,7 @@
                                                         </span>
                                                     </h6>
                                                     <div class="comment-text">
-                                                        <p>“We’ve created a full-stack structure for our working workflow processes, were from the funny the century initial all the made, have spare to negatives. ” </p>
+                                                        <p>"Nous avons créé une structure complète en cascade pour nos processus de flux de travail, en partant de l'initial amusant du siècle, tout a été fait, avec des réserves aux aspects négatifs." </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -223,10 +223,10 @@
                         <div class="col-lg-6 mb--40">
                             <!-- Start Comment Respond  -->
                             <div class="comment-respond pro-des-commend-respond mt--0">
-                                <h5 class="title mb--30">Add a Review</h5>
-                                <p>Your email address will not be published. Required fields are marked *</p>
+                                <h5 class="title mb--30">"Ajouter un avis"</h5>
+                                <p>Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont indiqués par *.</p>
                                 <div class="rating-wrapper d-flex-center mb--40">
-                                    Your Rating <span class="require">*</span>
+                                    "Votre évaluation" <span class="require">*</span>
                                     <div class="reating-inner ml--20">
                                         <a href="#"><i class="fal fa-star"></i></a>
                                         <a href="#"><i class="fal fa-star"></i></a>
@@ -240,13 +240,13 @@
                                     <div class="row">
                                         <div class="col-12">
                                             <div class="form-group">
-                                                <label>Other Notes (optional)</label>
+                                                <label>Autres remarques (facultatif)</label>
                                                 <textarea name="message" placeholder="Your Comment"></textarea>
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-12">
                                             <div class="form-group">
-                                                <label>Name <span class="require">*</span></label>
+                                                <label>Nom <span class="require">*</span></label>
                                                 <input id="name" type="text">
                                             </div>
                                         </div>
@@ -258,7 +258,7 @@
                                         </div>
                                         <div class="col-lg-12">
                                             <div class="form-submit">
-                                                <button type="submit" id="submit" class="axil-btn btn-bg-primary w-auto">Submit Comment</button>
+                                                <button type="submit" id="submit" class="axil-btn btn-bg-primary w-auto">Soumettre un commentaire</button>
                                             </div>
                                         </div>
                                     </div>

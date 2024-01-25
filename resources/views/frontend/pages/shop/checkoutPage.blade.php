@@ -18,173 +18,173 @@
                         <div class="col-lg-6">
                             <div class="axil-checkout-notice">
                                 <div class="axil-toggle-box">
-                                    <div class="toggle-bar"><i class="fas fa-user"></i> Returning customer? <a href="javascript:void(0)" class="toggle-btn">Click here to login <i class="fas fa-angle-down"></i></a>
+                                    <div class="toggle-bar"><i class="fas fa-user"></i> Déja client ? <a href="javascript:void(0)" class="toggle-btn">Click here to login <i class="fas fa-angle-down"></i></a>
                                     </div>
                                     <div class="axil-checkout-login toggle-open">
-                                        <p>If you didn't Logged in, Please Log in first.</p>
+                                        <p>Si vous n'etes pas connecté, veuillez d'abord vous connecter.</p>
                                         <div class="signin-box">
                                             <div class="form-group">
                                                 <label>Email</label>
                                                 <input type="email" class="form-control" name="email">
                                             </div>
                                             <div class="form-group">
-                                                <label>Password</label>
+                                                <label>Mot de passe</label>
                                                 <input type="password" class="form-control" name="password">
                                             </div>
                                             <div class="form-group mb--0">
-                                                <button type="submit" class="axil-btn btn-bg-primary submit-btn">Sign In</button>
+                                                <button type="submit" class="axil-btn btn-bg-primary submit-btn">Se connecter</button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="axil-toggle-box">
-                                    <div class="toggle-bar"><i class="fas fa-pencil"></i> Have a coupon? <a href="javascript:void(0)" class="toggle-btn">Click here to enter your code <i class="fas fa-angle-down"></i></a>
+                                    <div class="toggle-bar"><i class="fas fa-pencil"></i> Avez-vous un coupon ? <a href="javascript:void(0)" class="toggle-btn">Click here to enter your code <i class="fas fa-angle-down"></i></a>
                                     </div>
 
                                     <div class="axil-checkout-coupon toggle-open">
-                                        <p>If you have a coupon code, please apply it below.</p>
+                                        <p>Si vous avez un code de coupon, veuillez l'appliquer ci-dessous.</p>
                                         <div class="input-group">
                                             <input placeholder="Enter coupon code" type="text">
                                             <div class="apply-btn">
-                                                <button type="submit" class="axil-btn btn-bg-primary">Apply</button>
+                                                <button type="submit" class="axil-btn btn-bg-primary">Appliquer</button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="axil-checkout-billing">
-                                <h4 class="title mb--40">Billing details</h4>
+                                <h4 class="title mb--40">Détails de facturation</h4>
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <label>First Name <span>*</span></label>
+                                            <label>Nom<span>*</span></label>
                                             <input type="text" id="first-name" placeholder="Adam">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <label>Last Name <span>*</span></label>
+                                            <label>Prénom<span>*</span></label>
                                             <input type="text" id="last-name" placeholder="John">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label>Company Name</label>
+                                    <label>Nom de la compagnie</label>
                                     <input type="text" id="company-name">
                                 </div>
                                 <div class="form-group">
-                                    <label>Country/ Region <span>*</span></label>
+                                    <label>Pays/Région <span>*</span></label>
                                     <select id="Region">
-                                        <option value="3">Australia</option>
-                                        <option value="4">England</option>
-                                        <option value="6">New Zealand</option>
-                                        <option value="5">Switzerland</option>
-                                        <option value="1">United Kindom (UK)</option>
-                                        <option value="2">United States (USA)</option>
+                                        <option value="3">Togo</option>
+                                        <option value="4">Ghana</option>
+                                        <option value="6">Bénin</option>
+                                        <option value="5">Canada</option>
+                                        <option value="1">France</option>
+                                        <option value="2">Etats-unis</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <label>Street Address <span>*</span></label>
+                                    <label>Adresse postale<span>*</span></label>
                                     <input type="text" id="address1" class="mb--15" placeholder="House number and street name">
                                     <input type="text" id="address2" placeholder="Apartment, suite, unit, etc. (optonal)">
                                 </div>
                                 <div class="form-group">
-                                    <label>Town/ City <span>*</span></label>
+                                    <label>Ville<span>*</span></label>
                                     <input type="text" id="town">
                                 </div>
                                 <div class="form-group">
-                                    <label>Country</label>
+                                    <label>Pays</label>
                                     <input type="text" id="country">
                                 </div>
                                 <div class="form-group">
-                                    <label>Phone <span>*</span></label>
+                                    <label>Téléphone <span>*</span></label>
                                     <input type="tel" id="phone">
                                 </div>
                                 <div class="form-group">
-                                    <label>Email Address <span>*</span></label>
+                                    <label>Adresse mail<span>*</span></label>
                                     <input type="email" id="email">
                                 </div>
                                 <div class="form-group input-group">
                                     <input type="checkbox" id="checkbox1" name="account-create">
-                                    <label for="checkbox1">Create an account</label>
+                                    <label for="checkbox1">Créer un compte</label>
                                 </div>
                                 <div class="form-group different-shippng">
                                     <div class="toggle-bar">
                                         <a href="javascript:void(0)" class="toggle-btn">
                                             <input type="checkbox" id="checkbox2" name="diffrent-ship">
-                                            <label for="checkbox2">Ship to a different address?</label>
+                                            <label for="checkbox2">Envoyer à une adresse différente ?</label>
                                         </a>
                                     </div>
                                     <div class="toggle-open">
                                         <div class="form-group">
-                                            <label>Country/ Region <span>*</span></label>
+                                            <label>>Pays/Région <span>*</span></label>
                                             <select id="Region">
-                                                <option value="3">Australia</option>
-                                                <option value="4">England</option>
-                                                <option value="6">New Zealand</option>
-                                                <option value="5">Switzerland</option>
-                                                <option value="1">United Kindom (UK)</option>
-                                                <option value="2">United States (USA)</option>
+                                                <option value="3">Togo</option>
+                                                <option value="4">Ghana</option>
+                                                <option value="6">Bénin</option>
+                                                <option value="5">Canada</option>
+                                                <option value="1">France</option>
+                                                <option value="2">Etats-unis</option>
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <label>Street Address <span>*</span></label>
+                                            <label>Adresse postale <span>*</span></label>
                                             <input type="text" id="address1" class="mb--15" placeholder="House number and street name">
                                             <input type="text" id="address2" placeholder="Apartment, suite, unit, etc. (optonal)">
                                         </div>
                                         <div class="form-group">
-                                            <label>Town/ City <span>*</span></label>
+                                            <label>Ville <span>*</span></label>
                                             <input type="text" id="town">
                                         </div>
                                         <div class="form-group">
-                                            <label>Country</label>
+                                            <label>Pays</label>
                                             <input type="text" id="country">
                                         </div>
                                         <div class="form-group">
-                                            <label>Phone <span>*</span></label>
+                                            <label>Téléphone<span>*</span></label>
                                             <input type="tel" id="phone">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label>Other Notes (optional)</label>
+                                    <label>Autres remarques (facultatif)</label>
                                     <textarea id="notes" rows="2" placeholder="Notes about your order, e.g. speacial notes for delivery."></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="axil-order-summery order-checkout-summery">
-                                <h5 class="title mb--20">Your Order</h5>
+                                <h5 class="title mb--20">Votre commande</h5>
                                 <div class="summery-table-wrap">
                                     <table class="table summery-table">
                                         <thead>
                                             <tr>
-                                                <th>Product</th>
-                                                <th>Subtotal</th>
+                                                <th>Produits</th>
+                                                <th>Sous-total</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr class="order-product">
-                                                <td>Commodo Blown Lamp <span class="quantity">x1</span></td>
-                                                <td>$117.00</td>
+                                                <td>Lampe<span class="quantity">x1</span></td>
+                                                <td>11.700 fcfa</td>
                                             </tr>
                                             <tr class="order-product">
-                                                <td>Commodo Blown Lamp <span class="quantity">x1</span></td>
-                                                <td>$198.00</td>
+                                                <td>Ampoule intelligente <span class="quantity">x1</span></td>
+                                                <td>19.800 fcfa</td>
                                             </tr>
                                             <tr class="order-subtotal">
-                                                <td>Subtotal</td>
-                                                <td>$117.00</td>
+                                                <td>Sous-total</td>
+                                                <td>11.700 fcfa</td>
                                             </tr>
                                             <tr class="order-shipping">
                                                 <td colspan="2">
                                                     <div class="shipping-amount">
-                                                        <span class="title">Shipping Method</span>
-                                                        <span class="amount">$35.00</span>
+                                                        <span class="title">Méthode d'expédition</span>
+                                                        <span class="amount">3.500 fcfa</span>
                                                     </div>
                                                     <div class="input-group">
                                                         <input type="radio" id="radio1" name="shipping" checked>
-                                                        <label for="radio1">Free Shippping</label>
+                                                        <label for="radio1">Expédition gratuite</label>
                                                     </div>
                                                     <div class="input-group">
                                                         <input type="radio" id="radio2" name="shipping">
@@ -192,13 +192,13 @@
                                                     </div>
                                                     <div class="input-group">
                                                         <input type="radio" id="radio3" name="shipping">
-                                                        <label for="radio3">Flat rate</label>
+                                                        <label for="radio3">Forfaitaire</label>
                                                     </div>
                                                 </td>
                                             </tr>
                                             <tr class="order-total">
                                                 <td>Total</td>
-                                                <td class="order-total-amount">$323.00</td>
+                                                <td class="order-total-amount">32.300 fcfa</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -207,16 +207,16 @@
                                     <div class="single-payment">
                                         <div class="input-group">
                                             <input type="radio" id="radio4" name="payment">
-                                            <label for="radio4">Direct bank transfer</label>
+                                            <label for="radio4">Virement bancaire direct</label>
                                         </div>
-                                        <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
+                                        <p>Effectuez votre paiement directement sur notre compte bancaire. Veuillez utiliser votre ID de commande comme référence de paiement. Votre commande ne sera pas expédiée tant que les fonds n'auront pas été crédités sur notre compte.</p>
                                     </div>
                                     <div class="single-payment">
                                         <div class="input-group">
                                             <input type="radio" id="radio5" name="payment">
-                                            <label for="radio5">Cash on delivery</label>
+                                            <label for="radio5">Paiement à la livraison</label>
                                         </div>
-                                        <p>Pay with cash upon delivery.</p>
+                                        <p>Payez en espèces à la livraison.</p>
                                     </div>
                                     <div class="single-payment">
                                         <div class="input-group justify-content-between align-items-center">
@@ -224,10 +224,10 @@
                                             <label for="radio6">Paypal</label>
                                             <img src="assets/images/others/payment.png" alt="Paypal payment">
                                         </div>
-                                        <p>Pay via PayPal; you can pay with your credit card if you don’t have a PayPal account.</p>
+                                        <p>Payez via PayPal, vous pouvez payer avec votre carte de crédit si vous n'avez pas de compte PayPal.</p>
                                     </div>
                                 </div>
-                                <button type="submit" class="axil-btn btn-bg-primary checkout-btn">Process to Checkout</button>
+                                <button type="submit" class="axil-btn btn-bg-primary checkout-btn">Procéder au paiement</button>
                             </div>
                         </div>
                     </div>
