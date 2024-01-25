@@ -38,7 +38,7 @@
                             <img src="assets/images/product/poster/poster-01.png" alt="eTrade promotion poster">
                             <div class="poster-content">
                                 <div class="inner">
-                                    <h3 class="title">Rich sound, <br> for less.</h3>
+                                    <h3 class="title">Un son de qualité, <br> pour moins cher.</h3>
                                     <span class="sub-title">Collections <i class="fal fa-long-arrow-right"></i></span>
                                 </div>
                             </div>
@@ -53,8 +53,8 @@
                             <img src="assets/images/product/poster/poster-02.png" alt="eTrade promotion poster">
                             <div class="poster-content content-left">
                                 <div class="inner">
-                                    <span class="sub-title">50% Offer In Winter</span>
-                                    <h3 class="title">Get VR <br> Reality Glass</h3>
+                                    <span class="sub-title">50% Offre en vacances</span>
+                                    <h3 class="title">obtenez des lunettes  <br>  de réalité virtuelle (VR)</h3>
                                 </div>
                             </div>
                             <!-- End .poster-content -->

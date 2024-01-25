@@ -19,27 +19,27 @@
 
                                     <!-- Start Single Select  -->
                                     <select class="single-select">
-                                        <option>Categories</option>
+                                        <option>Catégories</option>
                                         <option>Fashion</option>
-                                        <option>Electronics</option>
-                                        <option>Furniture</option>
-                                        <option>Beauty</option>
+                                        <option>Electroniques</option>
+                                        <option>Fournitures</option>
+                                        <option>Beautés</option>
                                     </select>
                                     <!-- End Single Select  -->
 
                                     <!-- Start Single Select  -->
                                     <select class="single-select">
-                                        <option>Color</option>
-                                        <option>Red</option>
-                                        <option>Blue</option>
-                                        <option>Green</option>
-                                        <option>Pink</option>
+                                        <option>Couleurs</option>
+                                        <option>Rouge</option>
+                                        <option>Bleu</option>
+                                        <option>Vert</option>
+                                        <option>Rose</option>
                                     </select>
                                     <!-- End Single Select  -->
 
                                     <!-- Start Single Select  -->
                                     <select class="single-select">
-                                        <option>Price Range</option>
+                                        <option>Intervalle de prix</option>
                                         <option>0 - 100</option>
                                         <option>100 - 500</option>
                                         <option>500 - 1000</option>
@@ -53,10 +53,10 @@
                                 <div class="category-select mt_md--10 mt_sm--10 justify-content-lg-end">
                                     <!-- Start Single Select  -->
                                     <select class="single-select">
-                                        <option>Sort by Latest</option>
-                                        <option>Sort by Name</option>
-                                        <option>Sort by Price</option>
-                                        <option>Sort by Viewed</option>
+                                        <option>Trier par dernier</option>
+                                        <option>Trier par nom</option>
+                                        <option>Trier par prix</option>
+                                        <option>Trier par vue</option>
                                     </select>
                                     <!-- End Single Select  -->
                                 </div>

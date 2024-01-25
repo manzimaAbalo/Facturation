@@ -14,7 +14,7 @@
                     <li class="quickview"><a href="#" data-bs-toggle="modal" data-bs-target="#quick-view-modal"><i class="far fa-eye"></i></a></li>
                     <li class="select-option">
                         <a href="single-product.html">
-                            Add to Cart
+                            Ajouter au panier
                         </a>
                     </li>
                     <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a></li>
@@ -35,8 +35,8 @@
                 </div>
                 <h5 class="title"><a href="single-product.html">Yantiti Leather & Canvas Bags</a></h5>
                 <div class="product-price-variant">
-                    <span class="price current-price">$29.99</span>
-                    <span class="price old-price">$49.99</span>
+                    <span class="price current-price">2.999 fcfa</span>
+                    <span class="price old-price">4.999 fcfa</span>
                 </div>
             </div>
         </div>

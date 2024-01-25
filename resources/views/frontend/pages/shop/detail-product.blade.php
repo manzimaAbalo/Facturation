@@ -5,7 +5,7 @@
         Boutique
     @endsection
     @section('title')
-        Détail du produit
+        Détails du produit
     @endsection
 
     <main class="main-wrapper">
