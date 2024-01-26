@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Models\Customer;
 use App\Models\User;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Auth\Events\Registered;
@@ -30,22 +31,46 @@ class RegisteredUserController extends Controller
      */
     public function store(Request $request): RedirectResponse
     {
-        $request->validate([
-            'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'string', 'lowercase', 'email', 'max:255', 'unique:'.User::class],
-            'password' => ['required', 'confirmed', Rules\Password::defaults()],
-        ]);
+        try {
+            $request->validate([
+                'nom' => ['required', 'string', 'max:255'],
+                'username' => ['required', 'string', 'max:255'],
+                'email' => ['required', 'string', 'lowercase', 'email', 'max:255', 'unique:'.User::class],
+                'phone' => ['required', 'string', 'max:255'],
+                'password' => ['required', 'confirmed', Rules\Password::defaults()],
+            ]);
 
-        $user = User::create([
-            'name' => $request->name,
-            'email' => $request->email,
-            'password' => Hash::make($request->password),
-        ]);
+            $user = User::create([
+                'name' => $request->name,
+                'username' => $request->username,
+                'phone' => $request->phone,
+                'email' => $request->email,
+                'password' => Hash::make($request->password),
+            ]);
+            if ($user == null) {
+                return redirect()->back()->with('error', 'Une erreur est survenue');
+            }else{
+                $account = Customer::create([
+                    'user_id' => $user->id,
+                    'nom' => $request->nom,
+                    'prenoms' => $request->username,
+                    'email' => $request->email,
+                    'phone' => $request->phone,
+                ]);
+                if ($account == null) {
+                    $user->delete();
+                    return redirect()->back()->with('error', 'Une erreur est survenue');
+                }else {
+                    event(new Registered($user));
 
-        event(new Registered($user));
+                    Auth::login($user);
+                    return redirect()->back()->with('success', 'Compte crée avec succès');
+                }
+            }
+            return redirect(RouteServiceProvider::HOME);
 
-        Auth::login($user);
-
-        return redirect(RouteServiceProvider::HOME);
+        } catch (\Throwable $th) {
+            return redirect()->back()->with('error', 'Une erreur est survenue');
+        }
     }
 }

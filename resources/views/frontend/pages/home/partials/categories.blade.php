@@ -4,6 +4,7 @@
         <div class="section-title-wrapper">
             <span class="title-highlighter highlighter-secondary"> <i class="far fa-tags"></i> Categories</span>
             <h2 class="title">Nos catégories</h2>
+            
         </div>
         <div class="categrie-product-activation slick-layout-wrapper--15 axil-slick-arrow  arrow-top-slide">
             <div class="slick-single-layout">

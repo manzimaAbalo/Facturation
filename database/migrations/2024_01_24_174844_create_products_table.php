@@ -13,6 +13,17 @@ return new class extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('slug');
+            $table->float('price');
+            $table->integer('category_id')->nullable();
+            $table->float('discount_price')->nullable();
+            $table->integer('discount_percentage')->nullable();
+            $table->json('stock')->nullable()->comment('{"initial_quantity,current_quantity,in_stock"}');
+            $table->boolean('status')->default(true);
+            $table->boolean('on_discount')->default(false);
+            $table->json('images')->nullable()->comment('{"image_1,image_2,image_3"}');
+            $table->text('description')->nullable();
             $table->timestamps();
         });
     }

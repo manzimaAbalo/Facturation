@@ -7,7 +7,7 @@
     <!-- End banners Area  -->
 
     <!-- Start Categorie Area  -->
-    @include('frontend.pages.home.partials.categories', ['categories' => []])
+    @include('frontend.pages.home.partials.categories', ['categories' => $categories])
     <!-- End Categorie Area  -->
 
     <!-- Poster Countdown Area  -->
@@ -21,7 +21,6 @@
     <!-- Start Testimonila Area  -->
     @include('frontend.pages.home.partials.testimoials')
     <!-- End Testimonila Area  -->
-
 
     <!-- Start Why Choose Area  -->
     @include('frontend.pages.home.partials.choose')

@@ -111,7 +111,7 @@
                                     </li>
                                 </ul>
                                 <div class="login-btn">
-                                    <a href="#" class="axil-btn btn-bg-primary">Se connecter</a>
+                                    <a href="{{ route('login') }}" class="axil-btn btn-bg-primary">Se connecter</a>
                                 </div>
                                 <div class="reg-footer text-center">Pas encore de compte ? <a href="sign-up.html" class="btn-link">S'inscrire ici.</a></div>
                             </div>
